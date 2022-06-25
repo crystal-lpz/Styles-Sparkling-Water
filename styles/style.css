@@ -1,28 +1,43 @@
 body {
-  background-color: blanchedalmond;
+  background-color: antiquewhite;
 }
-h1 {
+h1,
+h2 {
   text-align: center;
   font-family: "Abril Fatface";
+}
+h1 {
+  font-size: 50px;
+  text-decoration: underline;
+}
+h2 {
   margin-top: 40px;
 }
 p {
   text-align: center;
   margin: 0;
   line-height: 1.5;
-  font-size: 25px;
+  font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
+  opacity: 0.8;
 }
 .logo {
   display: block;
   margin: 0 auto;
+  padding-top: 60px;
   max-width: 500px;
 }
 .wrapLogo {
-  background-color: blanchedalmond;
+  padding: 50px;
 }
 .wrap {
-  margin: 50px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #fffae4;
 }
 .rowsSodas {
   display: block;
@@ -38,7 +53,7 @@ p {
   margin: 20px;
 }
 .primary-link {
-  border-radius: 4px;
+  border-radius: 6px;
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
