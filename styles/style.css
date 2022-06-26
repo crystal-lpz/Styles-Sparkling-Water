@@ -39,10 +39,35 @@ p {
   border-radius: 10px;
   background-color: #fffae4;
 }
+
 .rowsSodas {
   display: block;
   margin: 0 auto;
   max-width: 100%;
+}
+.figure {
+  position: relative;
+  max-width: 100%;
+}
+#sodaCan {
+  margin-top: 30px;
+  max-width: 90%;
+  display: flex;
+  justify-content: left;
+  border: 10px solid white;
+}
+.figure img.image-hover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+.figure:hover img.image-hover {
+  opacity: 1;
 }
 .navigation-links {
   display: flex;
