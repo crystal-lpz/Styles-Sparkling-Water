@@ -21,30 +21,23 @@ p {
   font-family: Arial, Helvetica, sans-serif;
   opacity: 0.8;
 }
-.logo {
+#logo {
   display: block;
   margin: 0 auto;
-  padding-top: 60px;
-  max-width: 500px;
+  max-width: 800px;
 }
 .wrapLogo {
-  padding: 50px;
+  padding: 160px 20px;
+  background-color: antiquewhite;
 }
 .wrap {
-  margin-left: 200px;
-  margin-right: 200px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin: 1px auto;
   padding: 30px;
+  border: 5px solid black;
   border-radius: 10px;
   background-color: #fffae4;
 }
 
-.rowsSodas {
-  display: block;
-  margin: 0 auto;
-  max-width: 100%;
-}
 .figure {
   position: relative;
   max-width: 100%;
@@ -54,7 +47,7 @@ p {
   max-width: 90%;
   display: flex;
   justify-content: left;
-  border: 10px solid white;
+  border: 5px solid black;
 }
 .figure img.image-hover {
   position: absolute;
@@ -77,12 +70,51 @@ p {
 .navigation-links a {
   margin: 20px;
 }
-.primary-link {
-  border-radius: 6px;
+
+.btn-primary-link {
+  border: 2px solid black;
+  border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
   background: #fffae4;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   color: black;
+  font-weight: bold;
+}
+.btn-primary-link:hover {
+  background-color: black;
+  color: #fffae4;
+  border: 2px solid black;
+  transition-duration: 300ms;
+}
+.container {
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+hr {
+  height: 3px;
+  background-color: black;
+  border: none;
+}
+.gif {
+  display: flex;
+  justify-content: flex-end;
+  border: 5px solid black;
+  max-width: 100%;
+}
+@media (max-width: 576px) {
+  #logo {
+    max-width: 70%;
+  }
+  .btn-primary-link {
+    padding: 15px 15px;
+  }
+  .navigation-links a {
+    margin: 5px;
+    font-size: 10px;
+  }
+  .wrapLogo {
+    padding: 100px 20px;
+  }
 }

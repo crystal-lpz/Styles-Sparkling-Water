@@ -25,32 +25,63 @@
     <title>Styles Sparkling Water</title>
   </head>
   <body>
-    <div class="wrapLogo">
-      <img src="photos/logo.PNG" alt="" class="logo" />
-      <div class="navigation-links">
-        <a href="index.html#about" class="primary-link">About Us</a>
-        <a href="explore.html" class="primary-link">Explore Flavors</a>
-        <a href="faq.html" class="primary-link">FAQ</a>
+    <nav class="navbar navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Styles</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        <a class="nav-link" href="index.html#about">About us</a>
+        <a class="nav-link" href="explore.html">Explore Flavors</a>
+        <a class="nav-link" href="faq.html">FAQ</a>
       </div>
     </div>
-    <img src="photos/rows-soda.jpg" alt="" class="rowsSodas" />
+  </div>
+</nav>
+    <div class="wrapLogo">
+      <img src="photos/logo.PNG" alt="" class="img-fluid" id="logo" />
+      <div class="navigation-links">
+        <a href="index.html#about" class=" btn btn-primary-link">About Us</a>
+        <a href="explore.html" class="btn btn-primary-link">Explore Flavors</a>
+        <a href="faq.html" class="btn btn-primary-link" id="faq">FAQ</a>
+      </div>
+    </div>
 
-    <div class="wrap">
-      <h1>About Us</h1>
-      <h2>Styles Sparkling Water</h2>
-      <p class="text-md-start" id="about">
-        Styles Sparking Water is a refreshing and healthy beverage that can be
-        enjoyed in any setting. Each sip of Styles Sparking Water is flavored
-        with the natural essence oils extracted from the named fruit. It
-        contains 0-calories, 0-sweetenersand 0-sodium. This means you can enjoy
-        the refreshing taste of a carbonated beverage completely guilt-free.
-        Styles Sparking Water is vegan, gluten-free, non-GMO and Whole30
-        approved. Our water is sourced in the U.S.A. and has a lower carbon
-        footprint compared to imported brands. The average person needs to drink
-        eight 8-oz glasses of water a day, and with Styles Sparking Water, each
-        of those eight glasses can have a special, fruity essence that you will
-        love! Enjoy Styles Sparking Water!
-      </p>
+    <img src="photos/rows-soda.jpg" alt="" class="img-fluid" />
+
+    <div class="container">
+      <div class="row">
+       
+        <div class="col">
+          <div class="wrap mt-5">
+            <h1 id="about">About Us</h1>
+            <h2>Styles Sparkling Water</h2>
+            <p class="text-md-start" >
+              Styles Sparking Water is a refreshing and healthy beverage that
+              can be enjoyed in any setting. Each sip of Styles Sparking Water
+              is flavored with the natural essence oils extracted from the named
+              fruit. It contains 0-calories, 0-sweetenersand 0-sodium. This
+              means you can enjoy the refreshing taste of a carbonated beverage
+              completely guilt-free. Styles Sparking Water is vegan,
+              gluten-free, non-GMO and Whole30 approved. Our water is sourced in
+              the U.S.A. and has a lower carbon footprint compared to imported
+              brands. The average person needs to drink eight 8-oz glasses of
+              water a day, and with Styles Sparking Water, each of those eight
+              glasses can have a special, fruity essence that you will love!
+              Enjoy Styles Sparking Water!
+            </p>
+          </div>
+
+        </div>
+          <div class="col-6 mt-5 ml-2 d-none d-lg-block">
+            <img src="photos/gif-soda.GIF" class="gif" />
+          </div>
+      </div>
+
+      </div>
     </div>
     <hr />
   </body>
