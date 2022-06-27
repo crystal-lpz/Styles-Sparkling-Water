@@ -37,7 +37,14 @@ p {
   border-radius: 10px;
   background-color: #fffae4;
 }
-
+.wrap-FAQ {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: black;
+  color: antiquewhite;
+  margin-left: 135px;
+  margin-right: 135px;
+}
 .figure {
   position: relative;
   max-width: 100%;
@@ -70,7 +77,11 @@ p {
 .navigation-links a {
   margin: 20px;
 }
-
+#slogan {
+  display: block;
+  margin: 0 auto;
+  max-width: 800px;
+}
 .btn-primary-link {
   border: 2px solid black;
   border-radius: 4px;
@@ -104,6 +115,7 @@ hr {
   max-width: 100%;
 }
 @media (max-width: 576px) {
+  /* index */
   #logo {
     max-width: 70%;
   }
@@ -116,5 +128,25 @@ hr {
   }
   .wrapLogo {
     padding: 100px 20px;
+  }
+  /* FAQ Page */
+  #slogan {
+    max-width: 80%;
+  }
+  .wrap-FAQ {
+    margin: 30px 30px auto;
+  }
+  .wrap-FAQ h1 {
+    font-size: 36px;
+  }
+  .wrap-FAQ h2 {
+    font-size: 20px;
+  }
+  .wrap-FAQ p {
+    font-size: 15px;
+  }
+  /* explore Page*/
+  .explore h1 {
+    font-size: 5px;
   }
 }
