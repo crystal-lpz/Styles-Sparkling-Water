@@ -176,4 +176,8 @@ footer {
   .soda-description {
     font-size: 10px;
   }
+  /* footer */
+  footer {
+    font-size: 6px;
+  }
 }
