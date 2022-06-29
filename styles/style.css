@@ -25,6 +25,14 @@ p {
   font-family: Arial, Helvetica, sans-serif;
   opacity: 0.8;
 }
+footer {
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  font-size: 15px;
+  color: var(--main-color);
+  font-family: Arial, Helvetica, sans-serif;
+}
 .container {
   margin-top: 20px;
   margin-bottom: 50px;
