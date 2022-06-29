@@ -25,6 +25,11 @@ p {
   font-family: Arial, Helvetica, sans-serif;
   opacity: 0.8;
 }
+.container {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+/* header images */
 #logo {
   display: block;
   margin: 0 auto;
@@ -34,9 +39,20 @@ p {
   padding: 160px 20px;
   background-color: var(--main-color);
 }
-#about-us-containter {
-  background-color: black;
+#slogan {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  background-color: var(--main-color);
 }
+.gif {
+  display: flex;
+  justify-content: flex-end;
+  border: 5px solid black;
+  max-width: 100%;
+}
+/* wraps */
+
 .wrap {
   margin: 1px auto;
   padding: 30px;
@@ -52,20 +68,19 @@ p {
   background-color: var(--secondary-color);
   color: black;
   margin: 30px 60px auto;
-  /* margin-left: 135px;
-  margin-right: 135px; */
 }
 
-.figure {
-  position: relative;
-  max-width: 100%;
-}
+/* Explore Photos */
 #sodaCan {
   margin-top: 30px;
   max-width: 90%;
   display: flex;
   justify-content: left;
   border: 5px solid black;
+}
+.figure {
+  position: relative;
+  max-width: 100%;
 }
 .figure img.image-hover {
   position: absolute;
@@ -80,19 +95,14 @@ p {
 .figure:hover img.image-hover {
   opacity: 1;
 }
+
+/* Buttons */
 .navigation-links {
   display: flex;
   justify-content: center;
 }
-
 .navigation-links a {
   margin: 20px;
-}
-#slogan {
-  display: block;
-  margin: 0 auto;
-  max-width: 100%;
-  background-color: var(--main-color);
 }
 .btn-primary-link {
   border: 2px solid black;
@@ -111,20 +121,8 @@ p {
   border: 2px solid black;
   transition-duration: 300ms;
 }
-.container {
-  margin-top: 20px;
-}
-hr {
-  height: 3px;
-  background-color: black;
-  border: none;
-}
-.gif {
-  display: flex;
-  justify-content: flex-end;
-  border: 5px solid black;
-  max-width: 100%;
-}
+/*  */
+
 @media (max-width: 576px) {
   /* index */
   #logo {
@@ -150,7 +148,7 @@ hr {
     font-size: 20px;
   }
   .wrap p {
-    font-size: 15px;
+    font-size: 13px;
   }
   /* FAQ Page */
   .wrap-FAQ h1 {
