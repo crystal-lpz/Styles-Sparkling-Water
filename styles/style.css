@@ -47,11 +47,13 @@ p {
 
 .wrap-FAQ {
   padding: 10px;
+  border: 5px solid black;
   border-radius: 10px;
-  background-color: black;
-  color: var(--main-color);
-  margin-left: 135px;
-  margin-right: 135px;
+  background-color: var(--secondary-color);
+  color: black;
+  margin: 30px 60px auto;
+  /* margin-left: 135px;
+  margin-right: 135px; */
 }
 
 .figure {
@@ -89,7 +91,7 @@ p {
 #slogan {
   display: block;
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 100%;
   background-color: var(--main-color);
 }
 .btn-primary-link {
@@ -111,7 +113,6 @@ p {
 }
 .container {
   margin-top: 20px;
-  margin-bottom: 100px;
 }
 hr {
   height: 3px;
@@ -152,20 +153,14 @@ hr {
     font-size: 15px;
   }
   /* FAQ Page */
-  #slogan {
-    max-width: 80%;
-  }
-  .wrap-FAQ {
-    margin: 30px 30px auto;
-  }
   .wrap-FAQ h1 {
-    font-size: 36px;
+    font-size: 25px;
   }
   .wrap-FAQ h2 {
-    font-size: 20px;
+    font-size: 15px;
   }
   .wrap-FAQ p {
-    font-size: 15px;
+    font-size: 10px;
   }
 
   /* explore Page*/
