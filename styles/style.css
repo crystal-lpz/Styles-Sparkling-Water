@@ -1,9 +1,8 @@
 :root {
-  --main-color: antiquewhite;
-  --secondary-color: #fffae4;
+  --secondary-color: lightgray;
 }
 body {
-  background-color: var(--main-color);
+  background-color: white;
 }
 h1,
 h2 {
@@ -33,26 +32,21 @@ footer {
   color: var(--main-color);
   font-family: Arial, Helvetica, sans-serif;
 }
+.header {
+  background-color: black;
+}
 .container {
   margin-top: 20px;
   margin-bottom: 50px;
 }
 /* header images */
-#logo {
+.header #logo {
   display: block;
+  padding-top: 111px;
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 40%;
 }
-.wrapLogo {
-  padding: 160px 20px;
-  background-color: var(--main-color);
-}
-#slogan {
-  display: block;
-  margin: 0 auto;
-  max-width: 100%;
-  background-color: var(--main-color);
-}
+
 .gif {
   display: flex;
   justify-content: flex-end;
@@ -66,12 +60,11 @@ footer {
   padding: 30px;
   border: 5px solid black;
   border-radius: 10px;
-  background-color: var(--secondary-color);
+  background-color: rgba(0, 0, 0, 0.164);
 }
 
 .wrap-FAQ {
-  padding: 10px;
-  border: 5px solid black;
+  padding: 5px;
   border-radius: 10px;
   background-color: var(--secondary-color);
   color: black;
@@ -80,11 +73,10 @@ footer {
 
 /* Explore Photos */
 #sodaCan {
-  margin-top: 30px;
-  max-width: 90%;
   display: flex;
   justify-content: left;
   border: 5px solid black;
+  background-color: black;
 }
 .figure {
   position: relative;
@@ -118,14 +110,14 @@ footer {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
-  background: var(--secondary-color);
+  background: white;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   color: black;
   font-weight: bold;
 }
 .btn-primary-link:hover {
-  background-color: black;
-  color: var(--secondary-color);
+  background-color: lightgray;
+  color: white;
   border: 2px solid black;
   transition-duration: 300ms;
 }
@@ -137,7 +129,8 @@ footer {
     max-width: 70%;
   }
   .btn-primary-link {
-    padding: 15px 15px;
+    padding: 5px 8px;
+    font-size: 12px;
   }
   .navigation-links a {
     margin: 5px;
@@ -169,13 +162,6 @@ footer {
     font-size: 10px;
   }
 
-  /* explore Page*/
-  .soda-name {
-    font-size: 15px;
-  }
-  .soda-description {
-    font-size: 10px;
-  }
   /* footer */
   footer {
     font-size: 6px;
