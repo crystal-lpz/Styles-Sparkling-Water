@@ -5,13 +5,13 @@ body {
   background-color: white;
 }
 h1,
-h2 {
+h2,
+h3 {
   text-align: center;
   font-family: "Abril Fatface";
 }
 h1 {
   font-size: 50px;
-  text-decoration: underline;
 }
 h2 {
   margin-top: 30px;
@@ -29,7 +29,7 @@ footer {
   padding-top: 20px;
   padding-bottom: 30px;
   font-size: 15px;
-  color: var(--main-color);
+  color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
 .header {
@@ -39,6 +39,7 @@ footer {
   margin-top: 20px;
   margin-bottom: 50px;
 }
+
 /* header images */
 .header #logo {
   display: block;
@@ -46,7 +47,6 @@ footer {
   margin: 0 auto;
   max-width: 40%;
 }
-
 .gif {
   display: flex;
   justify-content: flex-end;
@@ -55,28 +55,11 @@ footer {
 }
 /* wraps */
 
-.wrap {
-  margin: 1px auto;
-  padding: 30px;
-  border: 5px solid black;
-  border-radius: 10px;
-  background-color: rgba(0, 0, 0, 0.164);
-}
-
-.wrap-FAQ {
-  padding: 5px;
-  border-radius: 10px;
-  background-color: var(--secondary-color);
-  color: black;
-  margin: 30px 60px auto;
-}
-
 /* Explore Photos */
 #sodaCan {
-  display: flex;
-  justify-content: left;
   border: 5px solid black;
   background-color: black;
+  border-radius: 5%;
 }
 .figure {
   position: relative;
@@ -98,27 +81,15 @@ footer {
 
 /* Buttons */
 .navigation-links {
-  display: flex;
-  justify-content: center;
+  display: inline;
 }
 .navigation-links a {
   margin: 20px;
 }
-.btn-primary-link {
-  border: 2px solid black;
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-  background: white;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-  color: black;
-  font-weight: bold;
-}
+
 .btn-primary-link:hover {
-  background-color: lightgray;
-  color: white;
-  border: 2px solid black;
+  background-color: white;
+  color: black;
   transition-duration: 300ms;
 }
 /*  */
@@ -136,32 +107,24 @@ footer {
     margin: 5px;
     font-size: 10px;
   }
-  .wrapLogo {
-    padding: 100px 20px;
+  .content h1 {
+    font-size: 40px;
   }
-  .wrap {
-    margin: 0px 9px;
-  }
-  .wrap h1 {
+  .content-faq h1 {
     font-size: 25px;
   }
-  .wrap h2 {
+  .content-faq h2 {
     font-size: 20px;
   }
-  .wrap p {
-    font-size: 13px;
+  .content-faq p {
+    font-size: 14px;
   }
-  /* FAQ Page */
-  .wrap-FAQ h1 {
-    font-size: 25px;
+  .content p {
+    font-size: 12px;
   }
-  .wrap-FAQ h2 {
-    font-size: 15px;
+  .figure {
+    max-width: 55%;
   }
-  .wrap-FAQ p {
-    font-size: 10px;
-  }
-
   /* footer */
   footer {
     font-size: 6px;
